@@ -1,2 +1,3 @@
 flet==0.22.*
+getpass
 git+https://github.com/UPD-CS12-232/cs12232lab07lib.git@main
