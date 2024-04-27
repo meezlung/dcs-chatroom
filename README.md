@@ -1,6 +1,6 @@
 # A dcs-chatroom Flet app
 
-An example of a minimal Flet app.
+This is from a CS 12 Lab Problems, wherein we were tasked to make a GUI for a chatroom with a dedicated server from [cs12232lab07lib  ](https://github.com/UPD-CS12-232/cs12232lab07lib). 
 
 To run the app:
 
