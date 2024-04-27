@@ -2,6 +2,7 @@ import flet as ft
 
 from cs12232lab07lib import authenticate, Session
 from cs12232lab07lib.project_types import ChatMessage
+from getpass import getpass
 
 import asyncio
 
@@ -9,7 +10,7 @@ async def login() -> Session:
     print('Enter name: ')
     name = input()  # Must have no arguments; Flet issue
     print('Enter password: ')
-    password = input()  # Must have no arguments; Flet issue
+    password = getpass()  # Must have no arguments; Flet issue
 
     try:
         session = await authenticate(name, password, 'ws://oj.dcs.upd.edu.ph:7777/ws')
